@@ -45,6 +45,7 @@ sounds:
   starting: block_note_block_pling
   pregame: entity_arrow_hit_player
   playing: entity_firework_rocket_launch
+  ending: none
 #-----------------------------------------------------------------------#
 points:
   money:

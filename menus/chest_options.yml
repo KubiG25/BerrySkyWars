@@ -4,7 +4,7 @@ rows: 3
 buttons:
   '1':
     material: leather_helmet
-    displayname: "&f&lBasic Chest"
+    displayname: "&e&lBasic Chest"
     lore:
       - "&7Chests will contain:"
       - "&b•Weak amour and low damaging swords"
@@ -13,14 +13,14 @@ buttons:
       - "&1"
       - "&fVotes: &a<chest_basic>"
       - "&2"
-      - "&eClick to vote!"
+      - "&aClick to vote!"
     position: 11
     actions:
       - vote_chest;basic
       - play_sound;block_note_block_pling
   '2':
     material: chainmail_helmet
-    displayname: "&e&lNormal Chest"
+    displayname: "&6&lNormal Chest"
     lore:
       - "&7Chests will contain:"
       - "&b•Average amour and weapons"
@@ -29,7 +29,7 @@ buttons:
       - "&1"
       - "&fVotes: &a<chest_normal>"
       - "&2"
-      - "&eClick to vote!"
+      - "&aClick to vote!"
     position: 13
     actions:
       - vote_chest;normal
@@ -45,7 +45,7 @@ buttons:
       - "&1"
       - "&fVotes: &a<chest_insane>"
       - "&2"
-      - "&eClick to vote!"
+      - "&aClick to vote!"
     position: 15
     actions:
       - vote_chest;insane

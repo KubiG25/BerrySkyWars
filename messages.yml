@@ -135,9 +135,13 @@ games:
     &7Selected &f<weather> &7weather.
     &3
   finish: |-
-    &2
-    &b<winner> &7won the game
     &1
+    &9<winner> &7won the game
+    &2
+    &c1st Killer - &a<top_name_1> - &f<top_value_1>
+    &62nd Killer - &a<top_name_2> - &f<top_value_2>
+    &e3rd Killer - &a<top_name_3> - &f<top_value_3>
+    &3
 #-------------------------------------------------------#
 titles:
   join:
