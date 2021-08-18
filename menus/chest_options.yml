@@ -1,36 +1,51 @@
-name: "&9Game Options | &fChest"
+name: "Game Options | Chest"
 identifier: votes_chest
 rows: 3
 buttons:
-  "1":
+  '1':
     material: leather_helmet
-    displayname: "&aBasic Chest"
+    displayname: "&f&lBasic Chest"
     lore:
-      - "&8- &7Basic loot"
-      - ""
-      - "&fVotes: &a<basic>"
+      - "&7Chests will contain:"
+      - "&b•Weak amour and low damaging swords"
+      - "&b•Average food"
+      - "&b•And other stuff"
+      - "&1"
+      - "&fVotes: &a<chest_basic>"
+      - "&2"
+      - "&eClick to vote!"
     position: 11
     actions:
       - vote_chest;basic
       - play_sound;block_note_block_pling
-  "2":
+  '2':
     material: chainmail_helmet
-    displayname: "&eNormal Chest"
+    displayname: "&e&lNormal Chest"
     lore:
-      - "&8- &7Normal loot"
-      - ""
-      - "&fVotes: &a<normal>"
+      - "&7Chests will contain:"
+      - "&b•Average amour and weapons"
+      - "&b•Average food and minimum golden apples"
+      - "&b•And other stuff"
+      - "&1"
+      - "&fVotes: &a<chest_normal>"
+      - "&2"
+      - "&eClick to vote!"
     position: 13
     actions:
       - vote_chest;normal
       - play_sound;block_note_block_pling
-  "3":
+  '3':
     material: diamond_helmet
-    displayname: "&cInsane Chest"
+    displayname: "&c&lInsane Chest"
     lore:
-      - "&8- &7Insane loot"
-      - ""
-      - "&fVotes: &a<insane>"
+      - "&7Chests will contain:"
+      - "&b•Strong amour and weapons"
+      - "&b•More golden apples"
+      - "&b•And other stuff"
+      - "&1"
+      - "&fVotes: &a<chest_insane>"
+      - "&2"
+      - "&eClick to vote!"
     position: 15
     actions:
       - vote_chest;insane

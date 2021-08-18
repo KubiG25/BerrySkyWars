@@ -1,36 +1,45 @@
-name: '&9Game Options | &fTime'
+name: "Game Options | Time"
 identifier: votes_time
 rows: 3
 buttons:
   '1':
     material: yellow_terracotta
-    displayname: '&e&lDay time'
+    displayname: "&e&lDay time"
     lore:
-      - '&7Vote time: &eDay'
-      - ''
-      - '&fVotes: &a<day>'
+      - "&7Play the game"
+      - "&7at day time."
+      - "&1"
+      - "&fVotes: &a<time_day>"
+      - "&2"
+      - "&aClick to vote!"
     position: 11
     actions:
       - vote_time;day
       - play_sound;block_note_block_pling
   '2':
     material: red_terracotta
-    displayname: '&c&lSunset time'
+    displayname: "&c&lSunset time"
     lore:
-      - '&7Vote time: &cSunset'
-      - ''
-      - '&fVotes: &a<sunset>'
+      - "&7Play the game"
+      - "&7at sunset time."
+      - "&1"
+      - "&fVotes: &a<time_sunset>"
+      - "&2"
+      - "&aClick to vote!"
     position: 13
     actions:
       - vote_time;sunset
       - play_sound;block_note_block_pling
   '3':
     material: black_terracotta
-    displayname: '&8&lNight time'
+    displayname: "&8&lNight time"
     lore:
-      - '&7Vote time: &8Night'
-      - ''
-      - '&fVotes: &a<night>'
+      - "&7Play the game"
+      - "&7at night time."
+      - "&1"
+      - "&fVotes: &a<time_night>"
+      - "&2"
+      - "&aClick to vote!"
     position: 15
     actions:
       - vote_time;night

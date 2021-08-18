@@ -1,6 +1,6 @@
 name: "Balloons"
 identifier: balloons
-rows: 1
+rows: 3
 buttons:
   '1':
     material: player_head

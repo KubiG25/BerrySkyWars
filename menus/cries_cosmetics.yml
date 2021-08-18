@@ -1,6 +1,6 @@
 name: "Death Cries"
 identifier: death_cries
-rows: 1
+rows: 3
 buttons:
   '1':
     material: ender_eye

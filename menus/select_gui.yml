@@ -45,7 +45,7 @@ buttons:
       - '&7Pick an effect to trigger'
       - "&7whenever you eliminate"
       - "&7another player!"
-      - "&b"
+      - "&1"
       - "&aClick to view!"
     position: 16
     actions:
@@ -58,7 +58,7 @@ buttons:
       - '&7Let others know just how salty'
       - '&7your tears are every time you'
       - '&7die with these death cries!'
-      - "&b"
+      - "&1"
       - "&aClick to view!"
     position: 28
     actions:
@@ -70,7 +70,7 @@ buttons:
     lore:
       - '&7Attach a balloon to your'
       - "&7spawn island!"
-      - "&b"
+      - "&1"
       - "&aClick to view!"
     position: 30
     actions:
@@ -84,7 +84,7 @@ buttons:
       - '&7Celebrate by gloating and'
       - "&7showing off to other"
       - "&7players whenever you win!"
-      - "&b"
+      - "&1"
       - "&aClick to view!"
     position: 32
     actions:
@@ -96,11 +96,11 @@ buttons:
     lore:
       - '&7Change the way you play by'
       - "&7picking perks."
-      - "&b"
+      - "&1"
       - "&aClick to view!"
     position: 34
     actions:
-      - message;comming soon
+      - message;&cComming soon
       - play_sound;block_note_block_pling
   '9':
     material: book

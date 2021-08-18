@@ -100,7 +100,7 @@ buttons:
       - "&aClick to view!"
     position: 34
     actions:
-      - message;comming soon
+      - message;&cComming soon
       - play_sound;block_note_block_pling
   '9':
     material: book

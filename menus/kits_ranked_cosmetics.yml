@@ -1,6 +1,6 @@
 name: "Kits"
 identifier: kits_ranked
-rows: 1
+rows: 3
 buttons:
   '1':
     material: bricks

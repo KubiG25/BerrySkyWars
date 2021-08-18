@@ -1,6 +1,6 @@
 name: "Projectile Trails"
 identifier: trails
-rows: 1
+rows: 3
 buttons:
   '1':
     material: torch

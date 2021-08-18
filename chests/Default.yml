@@ -70,13 +70,13 @@ normal:
   '8':
     material: stone_sword
     enchantments:
-     -damage_all;1
+     - damage_all;1
   '9':
     material: wooden_sword
   '10':
     material: iron_sword
     enchantments:
-      -damage_all;1
+      - damage_all;1
   #Armor
   '11':
     material: iron_chestplate
@@ -170,13 +170,13 @@ refill:
   '8':
     material: stone_sword
     enchantments:
-      -damage_all;1
+      - damage_all;1
   '9':
     material: wooden_sword
   '10':
     material: iron_sword
     enchantments:
-      -damage_all;1
+      - damage_all;1
     #Armor
   '11':
     material: iron_chestplate

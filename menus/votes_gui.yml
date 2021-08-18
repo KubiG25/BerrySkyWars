@@ -6,38 +6,51 @@ buttons:
     material: chest
     displayname: "&9Vote Chest"
     lore:
-      - '&8- &7Basic'
-      - '&8- &7Normal'
-      - '&8- &7Insane'
-      - ''
-      - '&eClick to vote'
-    position: 11
+      - "&8- &7Basic"
+      - "&8- &7Normal"
+      - "&8- &7Insane"
+      - "&1"
+      - "&eClick to view!"
+    position: 10
     actions:
       - inventory;votes_chest
       - play_sound;block_note_block_pling
   '2':
+    material: experience_bottle
+    displayname: "&9Vote health"
+    lore:
+      - "&8- &7Normal"
+      - "&8- &7Double"
+      - "&8- &7Triple"
+      - "&1"
+      - "&eClick to view!"
+    position: 12
+    actions:
+      - inventory;votes_health
+      - play_sound;block_note_block_pling
+  '3':
     material: clock
     displayname: "&9Vote Time"
     lore:
-      - '&8- &7Day'
-      - '&8- &7Sunset'
-      - '&8- &7Night'
-      - ''
-      - '&eClick to vote'
-    position: 13
+      - "&8- &7Day"
+      - "&8- &7Sunset"
+      - "&8- &7Night"
+      - "&1"
+      - "&eClick to view!"
+    position: 14
     actions:
       - inventory;votes_time
       - play_sound;block_note_block_pling
-  '3':
+  '4':
     material: water_bucket
     displayname: "&9Vote Weather"
     lore:
-      - '&8- &7Sunny'
-      - '&8- &7Rain'
-      - '&8- &7Thunder'
-      - ''
-      - '&eClick to vote'
-    position: 15
+      - "&8- &7Sunny"
+      - "&8- &7Rain"
+      - "&8- &7Thunder"
+      - "&1"
+      - "&eClick to view!"
+    position: 16
     actions:
       - inventory;votes_weather
       - play_sound;block_note_block_pling

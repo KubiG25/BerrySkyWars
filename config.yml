@@ -25,7 +25,7 @@ options:
   teleport-on-join: false
   announce-update: true
   placeholderapi: false
-  slime-world: false
+  slime-world-manager: false
   parties: false
   pertabworld: true
 #-------------------------------------------------------#

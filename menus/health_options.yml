@@ -1,0 +1,46 @@
+name: "Game Options | Health"
+identifier: votes_health
+rows: 3
+buttons:
+  "1":
+    material: apple
+    displayname: "&c&lNormal health"
+    lore:
+      - "&7Play the game with "
+      - "&7the normal amount of health"
+      - "&1"
+      - "&fVotes: &a<health_normal>"
+      - "&2"
+      - "&aClick to vote!"
+    position: 11
+    actions:
+      - vote_health;normal
+      - play_sound;block_note_block_pling
+  "2":
+    material: golden_apple
+    displayname: "&e&lDouble health"
+    lore:
+      - "&7Play the game with "
+      - "&7the double amount of health"
+      - "&1"
+      - "&fVotes: &a<health_double>"
+      - "&2"
+      - "&aClick to vote!"
+    position: 13
+    actions:
+      - vote_health;double
+      - play_sound;block_note_block_pling
+  "3":
+    material: enchanted_golden_apple
+    displayname: "&b&lTriple health"
+    lore:
+      - "&7Play the game with "
+      - "&7the triple amount of health"
+      - "&1"
+      - "&fVotes: &a<health_triple>"
+      - "&2"
+      - "&aClick to vote!"
+    position: 15
+    actions:
+      - vote_health;triple
+      - play_sound;block_note_block_pling

@@ -1,6 +1,6 @@
 name: "Cages"
 identifier: cages
-rows: 1
+rows: 3
 buttons:
   '1':
     material: glass

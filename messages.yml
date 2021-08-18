@@ -1,7 +1,7 @@
 #-------------------------------------------------------#
 help-commands:
   username: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &fv1.1.0
     &1
     &7/sw join &a{name}
     &7/sw random &a{type} {mode}
@@ -10,13 +10,12 @@ help-commands:
     &7/sw admin &a{args}
     &2
   administrator: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &fv1.1.0
     &1
     &7/sw admin &areload
     &7/sw admin &asetlobby
     &7/sw admin &alobby
     &7/sw inventory {identifier}
-    &7/sw cosmetics
     &7/sw arena
     &7/sw cages
     &7/sw kits
@@ -38,11 +37,10 @@ help-commands:
     &7/sw arena &aisland clear
     &7/sw arena &aspectator
     &7/sw arena &asave
-    &7/sw arena &aedit {name}
     &7/sw arena &aenabled {name} {boolean}
     &2
   cages-setup: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &fv1.1.0
     &1
     &7/sw cages &acreate {name}
     &7/sw cages &acost {cost}
@@ -52,7 +50,7 @@ help-commands:
     &7/sw cages &asave
     &2
   kits-setup: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &fv1.1.0
     &1
     &7/sw kits &acreate {name}
     &7/sw kits &acost {cost}
@@ -62,7 +60,7 @@ help-commands:
     &7/sw kits &asave
     &2
   trails-setup: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &fv1.1.0
     &1
     &7/sw trails &acreate {name}
     &7/sw trails &acost {cost}
@@ -71,7 +69,7 @@ help-commands:
     &7/sw trails &asave
     &2
   cries-setup: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &fv1.1.0
     &1
     &7/sw cries &acreate {name}
     &7/sw cries &acost {cost}
@@ -80,7 +78,7 @@ help-commands:
     &7/sw cries &asave
     &2
   balloons-setup: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &fv1.1.0
     &1
     &7/sw balloons &acreate {name}
     &7/sw balloons &acost {cost}
@@ -89,7 +87,7 @@ help-commands:
     &7/sw balloons &asave
     &2
   chests-setup: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &fv1.1.0
     &1
     &7/sw chests &acreate {name}
     &7/sw chests &amax {max}
@@ -141,6 +139,32 @@ games:
     &b<winner> &7won the game
     &1
 #-------------------------------------------------------#
+titles:
+  join:
+    title: "&fSkyWars"
+    subtitle: "&e<mode> Mode"
+  cancelled:
+    title: "&cCancelled"
+    subtitle: "&cNot enough players"
+  starting:
+    title: "&f<timer>"
+    subtitle: "&e¡Prepare to fight!"
+  pregame:
+    title: "&1"
+    subtitle: "&eCages open in: &a<timer>"
+  death:
+    title: "&cYou have died"
+    subtitle: "&7Now you are a spectator"
+  refill:
+    title: "&1"
+    subtitle: "&7Chests have been &9refilled&7!"
+  dragon:
+    title: "&cDeath match"
+    subtitle: "&cRun from the dragon or lose"
+  victory:
+    title: "&eCongratulations"
+    subtitle: "&7You won the game"
+#-------------------------------------------------------#
 votes:
   chest: "&9<player> &7vote for &f<chest>&7."
   health: "&9<player> &7vote for &f<health>&7."
@@ -183,32 +207,6 @@ deaths:
     &9<player> &7was slain by &f<killer>&7!
     &aThere are &f<count> &aplayers left!
 #-----------------------------------------------------------------------#
-titles:
-  join:
-    title: "&fSkyWars"
-    subtitle: "&e<mode> Mode"
-  cancelled:
-    title: "&cCancelled"
-    subtitle: "&cNot enough players"
-  starting:
-    title: "&f<timer>"
-    subtitle: "&e¡Prepare to fight!"
-  pregame:
-    title: "&1"
-    subtitle: "&eCages open in: &a<timer>"
-  death:
-    title: "&cYou have died"
-    subtitle: "&7Now you are a spectator"
-  refill:
-    title: "&1"
-    subtitle: "&7Chests have been &9refilled&7!"
-  dragon:
-    title: "&cDeath match"
-    subtitle: "&cRun from the dragon or lose"
-  victory:
-    title: "&eCongratulations"
-    subtitle: "&7You won the game"
-#-------------------------------------------------------#
 actionbar:
   death: "&7You're dead."
   kill: "&7You killed &9<player> &7+1"
@@ -228,6 +226,11 @@ enums:
     basic: "Basic"
     normal: "Normal"
     insane: "Insane"
+    nobody: "Nobody"
+  health:
+    normal: "Normal health"
+    double: "Double health"
+    triple: "Triple health"
     nobody: "Nobody"
   times:
     day: "Day"

@@ -1,6 +1,6 @@
 name: "Kill Effects"
 identifier: kill_effects
-rows: 1
+rows: 3
 buttons:
   '1':
     material: glass
@@ -14,14 +14,5 @@ buttons:
     position: 0
     actions:
       - select_kill-effect;0
-      - play_sound;entity_arrow_hit_player
-      - close
-  '2':
-    material: barrier
-    displayname: "&eClose"
-    lore:
-      - '&cClose menu'
-    position: 8
-    actions:
       - play_sound;entity_arrow_hit_player
       - close

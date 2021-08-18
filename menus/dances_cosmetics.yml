@@ -1,10 +1,10 @@
 name: "Victory Dances"
 identifier: dances
-rows: 1
+rows: 3
 buttons:
   '1':
     material: firework_rocket
-    displayname: "&bFireworks"
+    displayname: "&9Fireworks"
     lore:
       - '&fVictory Dances'
       - "&1"
@@ -14,14 +14,5 @@ buttons:
     position: 0
     actions:
       - select_dance;0
-      - play_sound;entity_arrow_hit_player
-      - close
-  '2':
-    material: barrier
-    displayname: "&eClose"
-    lore:
-      - '&cClose menu'
-    position: 8
-    actions:
       - play_sound;entity_arrow_hit_player
       - close

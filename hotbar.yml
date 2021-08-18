@@ -35,6 +35,15 @@
   actions:
     - cmd_player;sw quit
 '5':
+  material: paper
+  displayname: "&bPlay Again &7(Right Click)"
+  lore:
+    - '&7Right click to play other game!'
+  position: 7
+  hotbar-type: spectator
+  actions:
+    - cmd_player;sw playagain
+'6':
   material: spruce_door
   displayname: "&aQuit &7(Right Click)"
   lore:
