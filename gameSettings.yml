@@ -15,7 +15,6 @@ player-settings:
     victory-dances: 999
 #-----------------------------------------------------------------------#
 game-options:
-  waiting-lobby: true
   votes-default:
     chest: NORMAL
     health: NORMAL

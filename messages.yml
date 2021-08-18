@@ -122,10 +122,10 @@ hologram: |-
 #-------------------------------------------------------#
 games:
   join: "&9<player> &7has joined (&f<count>/<max>&7)!"
-  quit: '&9<player> &7has quit (&f<count>/<max>&7)!'
+  quit: "&9<player> &7has quit (&f<count>/<max>&7)!"
   countdown:
-    starting: '&7The game starts in &9<timer> &7seconds!'
-    pregame: '&7The cage open in &9<timer> &7seconds!'
+    starting: "&7The game starts in &9<timer> &7seconds!"
+    pregame: "&7The cage open in &9<timer> &7seconds!"
   start: |-
     &1
     &9SkyWars
@@ -136,11 +136,11 @@ games:
     &3
   finish: |-
     &1
-    &9<winner> &7won the game
+    &9 <winner> &7won the game
     &2
-    &c1st Killer - &a<top_name_1> - &f<top_value_1>
-    &62nd Killer - &a<top_name_2> - &f<top_value_2>
-    &e3rd Killer - &a<top_name_3> - &f<top_value_3>
+    &c 1st Killer - &a<top_name_1> - &f<top_value_1>
+    &6 2nd Killer - &a<top_name_2> - &f<top_value_2>
+    &e 3rd Killer - &a<top_name_3> - &f<top_value_3>
     &3
 #-------------------------------------------------------#
 titles:
@@ -199,7 +199,7 @@ deaths:
     &9<player> &7has swimn in lava!
     &aThere are &f<count> &aplayers left!
   explosion: |-
-    &9<player> &7flew to pieces!'
+    &9<player> &7flew to pieces!
     &aThere are &f<count> &aplayers left!
   drowning: |-
     &9<player> &7drowned slowly!
@@ -217,9 +217,9 @@ actionbar:
 #-------------------------------------------------------#
 enums:
   rarity:
-    common: '&aCommon'
-    rare: '&bRare'
-    legendary: '&eLegendary'
+    common: "&aCommon"
+    rare: "&bRare"
+    legendary: "&eLegendary"
   modes:
     normal: "Normal"
     ranked: "Ranked"
@@ -283,14 +283,14 @@ error:
   already-created-chest: "&cChest already created."
   non-existing-chest: "&cThere is no such chest."
   insufficient-money: "&cInsufficient money!"
-  not-exist-game: '&cThat game does not exist.'
-  not-found-game: '&cNo game found available.'
-  already-playing: '&cYou are already playing a game.'
-  not-in-playing: '&cYou are not in game.'
+  not-exist-game: "&cThat game does not exist."
+  not-found-game: "&cNo game found available."
+  already-playing: "&cYou are already playing a game."
+  not-in-playing: "&cYou are not in game."
   game-disabled: "&cThe game is disabled."
-  game-ranked: "&cYou can't get in, you don't have the requires"
-  game-started: '&cThe game has already begun.'
-  full-game: '&cThe game is full.'
+  game-started: "&cThe game has already begun."
+  game-ranked-requires: "&cYou can't get in, you don't have the requires"
+  game-full: "&cThe game is full."
   command-disabled: "&cThis command is disabled during the game!"
   not-leave-arena: "&cYou cannot leave the arena."
 #-------------------------------------------------------#
@@ -300,7 +300,7 @@ success:
   teleport-lobby: "&7You've been taken to the lobby."
   holo-stats-placed: "&7You have placed the hologram stats"
   place-sign: "&7You added a sign with arena: &9<name>"
-  remove-sign: "&7Once the server is turned off, it will be deleted."
+  remove-sign: "&7You deleted a sign with arena: &9<name>"
 #-------------------------------------------------------#
 arenas:
   created: "&7The <name> map was &9created &7successfully!"

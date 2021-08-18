@@ -6,23 +6,10 @@
 #                 |___/                                 #
 #                                 By ShotaDev(KubiG25)  #
 #-------------------------------------------------------#
-lobbySpawn: none
-#-------------------------------------------------------#
-lobby-protect:
-  enabled: true
-  options:
-    hunger: true
-    damage: true
-    interact: true
-    build: true
-    destroy: true
-#-------------------------------------------------------#
-holoSpawn: none
-#-------------------------------------------------------#
 options:
   data-type: SQLITE
-  teleport-on-join: false
   announce-update: true
+  teleport-on-join: false
   placeholderapi: false
   slime-world-manager: false
   parties: false
@@ -34,4 +21,16 @@ connection:
   database: database
   username: username
   password: password
+#-------------------------------------------------------#
+lobbySpawn: none
+holoSpawn: none
+#-------------------------------------------------------#
+lobby-protect:
+  enabled: true
+  options:
+    hunger: true
+    damage: true
+    interact: true
+    build: true
+    destroy: true
 #-------------------------------------------------------#
