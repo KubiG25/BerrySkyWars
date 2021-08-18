@@ -70,7 +70,7 @@ normal:
   '8':
     material: stone_sword
     enchantments:
-     - damage_all;1
+      - damage_all;1
   '9':
     material: wooden_sword
   '10':

@@ -1,7 +1,7 @@
 #-------------------------------------------------------#
 help-commands:
   username: |-
-    &9SkyWars &fv1.1.0
+    &9SkyWars &7| &f@G25Kubi
     &1
     &7/sw join &a{name}
     &7/sw random &a{type} {mode}
@@ -10,7 +10,7 @@ help-commands:
     &7/sw admin &a{args}
     &2
   administrator: |-
-    &9SkyWars &fv1.1.0
+    &9SkyWars &7| &f@G25Kubi
     &1
     &7/sw admin &areload
     &7/sw admin &asetlobby
@@ -25,7 +25,7 @@ help-commands:
     &7/sw chest
     &2
   arena-setup: |-
-    &9SkyWars &fv1.0.0
+    &9SkyWars &7| &f@G25Kubi
     &1
     &7/sw arena &acreate {name}
     &7/sw arena &amode {mode}
@@ -40,7 +40,7 @@ help-commands:
     &7/sw arena &aenabled {name} {boolean}
     &2
   cages-setup: |-
-    &9SkyWars &fv1.1.0
+    &9SkyWars &7| &f@G25Kubi
     &1
     &7/sw cages &acreate {name}
     &7/sw cages &acost {cost}
@@ -50,7 +50,7 @@ help-commands:
     &7/sw cages &asave
     &2
   kits-setup: |-
-    &9SkyWars &fv1.1.0
+    &9SkyWars &7| &f@G25Kubi
     &1
     &7/sw kits &acreate {name}
     &7/sw kits &acost {cost}
@@ -60,7 +60,7 @@ help-commands:
     &7/sw kits &asave
     &2
   trails-setup: |-
-    &9SkyWars &fv1.1.0
+    &9SkyWars &7| &f@G25Kubi
     &1
     &7/sw trails &acreate {name}
     &7/sw trails &acost {cost}
@@ -69,7 +69,7 @@ help-commands:
     &7/sw trails &asave
     &2
   cries-setup: |-
-    &9SkyWars &fv1.1.0
+    &9SkyWars &7| &f@G25Kubi
     &1
     &7/sw cries &acreate {name}
     &7/sw cries &acost {cost}
@@ -78,7 +78,7 @@ help-commands:
     &7/sw cries &asave
     &2
   balloons-setup: |-
-    &9SkyWars &fv1.1.0
+    &9SkyWars &7| &f@G25Kubi
     &1
     &7/sw balloons &acreate {name}
     &7/sw balloons &acost {cost}
@@ -87,7 +87,7 @@ help-commands:
     &7/sw balloons &asave
     &2
   chests-setup: |-
-    &9SkyWars &fv1.1.0
+    &9SkyWars &f@G25Kubi
     &1
     &7/sw chests &acreate {name}
     &7/sw chests &amax {max}
@@ -284,7 +284,7 @@ error:
   already-playing: '&cYou are already playing a game.'
   not-in-playing: '&cYou are not in game.'
   game-disabled: "&cThe game is disabled."
-  game-ranked: "&cYou can't get in, you don't have the required kills"
+  game-ranked: "&cYou can't get in, you don't have the requires"
   game-started: '&cThe game has already begun.'
   full-game: '&cThe game is full.'
   command-disabled: "&cThis command is disabled during the game!"
