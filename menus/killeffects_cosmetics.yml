@@ -1,0 +1,27 @@
+name: "Kill Effects"
+identifier: kill_effects
+rows: 1
+buttons:
+  '1':
+    material: glass
+    displayname: "&bLightning Strike"
+    lore:
+      - '&fKill Effects'
+      - "&1"
+      - "&7Select the Lightning Strike effect."
+      - "&2"
+      - "&aClick to select!"
+    position: 0
+    actions:
+      - select_kill-effect;0
+      - play_sound;entity_arrow_hit_player
+      - close
+  '2':
+    material: barrier
+    displayname: "&eClose"
+    lore:
+      - '&cClose menu'
+    position: 8
+    actions:
+      - play_sound;entity_arrow_hit_player
+      - close

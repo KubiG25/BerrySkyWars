@@ -1,0 +1,13 @@
+name: "Perks"
+identifier: perks
+rows: 1
+buttons:
+  '1':
+    material: barrier
+    displayname: "&aClose"
+    lore:
+      - '&cClose menu'
+    position: 0
+    actions:
+      - play_sound;entity_arrow_hit_player
+      - close

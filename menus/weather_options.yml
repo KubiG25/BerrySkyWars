@@ -1,0 +1,37 @@
+name: '&9Game Options | &fWeather'
+identifier: votes_weather
+rows: 3
+buttons:
+  '1':
+    material: light_blue_terracotta
+    displayname: '&e&lSunny weather'
+    lore:
+      - '&7Vote weather: &fSunny'
+      - ''
+      - '&fVotes: &a<sunny>'
+    position: 11
+    actions:
+      - vote_weather;sunny
+      - play_sound;block_note_block_pling
+  '2':
+    material: blue_terracotta
+    displayname: '&c&lRain weather'
+    lore:
+      - '&7Vote weather: &bRain'
+      - ''
+      - '&fVotes: &a<rain>'
+    position: 13
+    actions:
+      - vote_weather;rain
+      - play_sound;block_note_block_pling
+  '3':
+    material: yellow_terracotta
+    displayname: '&8&lThunder weather'
+    lore:
+      - '&7Vote weather: &eThunder'
+      - ''
+      - '&fVotes: &a<thunder>'
+    position: 15
+    actions:
+      - vote_weather;thunder
+      - play_sound;block_note_block_pling

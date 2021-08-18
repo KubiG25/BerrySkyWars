@@ -1,0 +1,6 @@
+smoke:
+  subname: Smoke
+  id: 0
+  cost: 0
+  permission: skywars.cosmetics.trails.smoke
+  type: smoke_normal

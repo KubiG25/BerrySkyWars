@@ -1,0 +1,28 @@
+name: "Kits"
+identifier: kits_select
+rows: 3
+buttons:
+  '1':
+    material: stone_sword
+    displayname: "&9Kits Normal"
+    lore:
+      - "&7Change the way you play by"
+      - "&7picking kits normal."
+      - "&1"
+      - "&aClick to view!"
+    position: 12
+    actions:
+      - inventory;kits_normal
+      - play_sound;block_note_block_pling
+  '2':
+    material: golden_sword
+    displayname: "&9Kits Ranked"
+    lore:
+      - "&7Change the way you play by"
+      - "&7picking kits ranked."
+      - "&1"
+      - "&aClick to view!"
+    position: 14
+    actions:
+      - inventory;kits_ranked
+      - play_sound;block_note_block_pling

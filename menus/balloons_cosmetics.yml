@@ -1,0 +1,19 @@
+name: "Balloons"
+identifier: balloons
+rows: 1
+buttons:
+  '1':
+    material: player_head
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdmNTc2NmQyOTI4ZGMwZGYxYjM0MDRjM2JkMDczYzk0NzZkMjZjODA1NzNiMDMzMmU3Y2NlNzNkZjE1NDgyYSJ9fX0
+    displayname: "&9Coal"
+    lore:
+      - '&fBalloon'
+      - "&1"
+      - "&7Select the Coal Balloon."
+      - "&2"
+      - "&aClick to select!"
+    position: 0
+    actions:
+      - select_balloon;0
+      - play_sound;entity_arrow_hit_player
+      - close

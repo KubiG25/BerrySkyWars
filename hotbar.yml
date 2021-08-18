@@ -1,0 +1,45 @@
+'1':
+  material: emerald
+  displayname: "&aShop &7(Right Click)"
+  lore:
+    - '&8Open SkyWars shop'
+  position: 0
+  hotbar-type: lobby
+  actions:
+    - inventory;shop
+'2':
+  material: bow
+  displayname: "&aCosmetics &7(Right Click)"
+  lore:
+    - '&8Open cosmetics'
+  position: 0
+  hotbar-type: playing
+  actions:
+    - inventory;select
+'3':
+  material: blaze_powder
+  displayname: '&aMap Options &7(Right Click)'
+  lore:
+    - '&7Map options'
+  position: 1
+  hotbar-type: playing
+  actions:
+    - inventory;votes
+'4':
+  material: spruce_door
+  displayname: "&aQuit &7(Right Click)"
+  lore:
+    - '&8Leave the game'
+  position: 8
+  hotbar-type: playing
+  actions:
+    - cmd_player;sw quit
+'5':
+  material: spruce_door
+  displayname: "&aQuit &7(Right Click)"
+  lore:
+    - '&8Leave the game'
+  position: 8
+  hotbar-type: spectator
+  actions:
+    - cmd_player;sw quit

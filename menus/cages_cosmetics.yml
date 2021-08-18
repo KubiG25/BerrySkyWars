@@ -1,0 +1,18 @@
+name: "Cages"
+identifier: cages
+rows: 1
+buttons:
+  '1':
+    material: glass
+    displayname: "&9Glass"
+    lore:
+      - '&fCage'
+      - "&1"
+      - "&7Select the Glass Cage."
+      - "&2"
+      - "&aClick to select!"
+    position: 0
+    actions:
+      - select_cage;0
+      - play_sound;entity_arrow_hit_player
+      - close

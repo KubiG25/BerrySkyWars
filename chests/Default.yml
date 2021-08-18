@@ -1,0 +1,196 @@
+#min-items       | Minimum of items in the chest
+#max-items       | Maximum items in the chest
+min-items: 6
+max-items: 10
+basic:
+  #Blocks
+  '1':
+    material: oak_planks
+    amount: 32
+  '2':
+    material: cobblestone
+    amount: 15
+  '3':
+    material: oak_planks
+    amount: 30
+  '4':
+    material: cobblestone
+    amount: 40
+  #Food
+  '5':
+    material: golden_apple
+    amount: 1
+  '6':
+    material: cooked_beef
+    amount: 25
+  '7':
+    material: cooked_cod
+    amount: 15
+  #Tools and weapons
+  '8':
+    material: stone_sword
+  '9':
+    material: wooden_sword
+  '10':
+    material: iron_sword
+  #Armor
+  '11':
+    material: iron_chestplate
+  '12':
+    material: iron_helmet
+  '13':
+    material: chainmail_leggings
+  '14':
+    material: diamond_helmet
+normal:
+  #Blocks
+  '1':
+    material: oak_planks
+    amount: 32
+  '2':
+    material: cobblestone
+    amount: 15
+  '3':
+    material: oak_planks
+    amount: 30
+  '4':
+    material: cobblestone
+    amount: 40
+  #Food
+  '5':
+    material: golden_apple
+    amount: 1
+  '6':
+    material: cooked_beef
+    amount: 25
+  '7':
+    material: cooked_cod
+    amount: 15
+  #Tools and weapons
+  '8':
+    material: stone_sword
+    enchantments:
+     -damage_all;1
+  '9':
+    material: wooden_sword
+  '10':
+    material: iron_sword
+    enchantments:
+      -damage_all;1
+  #Armor
+  '11':
+    material: iron_chestplate
+    enchantments:
+      - protection_environmental;1
+  '12':
+    material: iron_helmet
+  '13':
+    material: chainmail_leggings
+    enchantments:
+      - protection_environmental;1
+  '14':
+    material: diamond_helmet
+insane:
+  #Blocks
+  '1':
+    material: oak_planks
+    amount: 32
+  '2':
+    material: cobblestone
+    amount: 15
+  '3':
+    material: oak_planks
+    amount: 30
+  '4':
+    material: cobblestone
+    amount: 40
+  #Food
+  '5':
+    material: golden_apple
+    amount: 1
+  '6':
+    material: cooked_beef
+    amount: 25
+  '7':
+    material: cooked_cod
+    amount: 15
+  #Tools and weapons
+  '8':
+    material: stone_sword
+    enchantments:
+      - damage_all;1
+  '9':
+    material: wooden_sword
+  '10':
+    material: iron_sword
+    enchantments:
+      - damage_all;1
+    #Armor
+  '11':
+    material: iron_chestplate
+    enchantments:
+      - protection_environmental;1
+  '12':
+    material: iron_helmet
+    enchantments:
+      - protection_environmental;2
+  '13':
+    material: chainmail_leggings
+    enchantments:
+      - protection_environmental;1
+  '14':
+    material: diamond_helmet
+    enchantments:
+      - protection_environmental;2
+refill:
+  #Blocks
+  '1':
+    material: oak_planks
+    amount: 32
+  '2':
+    material: cobblestone
+    amount: 15
+  '3':
+    material: oak_planks
+    amount: 30
+  '4':
+    material: cobblestone
+    amount: 40
+  #Food
+  '5':
+    material: golden_apple
+    amount: 1
+  '6':
+    material: cooked_beef
+    amount: 25
+  '7':
+    material: cooked_cod
+    amount: 15
+    #Tools and weapons
+  '8':
+    material: stone_sword
+    enchantments:
+      -damage_all;1
+  '9':
+    material: wooden_sword
+  '10':
+    material: iron_sword
+    enchantments:
+      -damage_all;1
+    #Armor
+  '11':
+    material: iron_chestplate
+    enchantments:
+      - protection_environmental;1
+  '12':
+    material: iron_helmet
+    enchantments:
+      - protection_environmental;2
+  '13':
+    material: chainmail_leggings
+    enchantments:
+      - protection_environmental;1
+  '14':
+    material: diamond_helmet
+    enchantments:
+      - protection_environmental;2

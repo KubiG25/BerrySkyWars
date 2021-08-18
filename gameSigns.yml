@@ -1,0 +1,12 @@
+lines:
+  - "&0SKYWARS"
+  - "&0Map: &f<mapname>"
+  - "<state>"
+  - "&0<count>/<max>"
+blocks:
+  disabled: "cyan_terracotta"
+  waiting: "lime_terracotta"
+  starting: "yellow_terracotta"
+  pregame: "light_blue_terracotta"
+  playing: "red_terracotta"
+  ending: "blue_terracotta"

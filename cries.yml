@@ -1,0 +1,6 @@
+Enderman:
+  subname: Enderman
+  id: 0
+  cost: 0
+  permission: skywars.cosmetics.cries.enderman
+  sound: entity_enderman_death

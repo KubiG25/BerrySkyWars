@@ -1,0 +1,60 @@
+main-board:
+  enabled: true
+  title: "&9SkyWars"
+  lines:
+    -  "&4"
+    -  "&8&l› &a<player_name>"
+    -  "&3"
+    -  "&8• &fWins: &a<wins>"
+    -  "&8• &fPlayed: &a<played>"
+    -  "&8• &fKills: &a<kills>"
+    -  "&8• &fDeaths: &a<deaths>"
+    -  "&2"
+    -  "&8• &fCoins: &a<coins>"
+    -  "&8• &fSouls: &b<souls>&7/&b100"
+    -  "&1"
+    -  "&7@G25Kubi"
+game-board:
+  enabled: true
+  title: "&9SkyWars"
+  waiting:
+    - "&4"
+    - "&8•&f<event>"
+    - "&3"
+    - "&8•&fPlayers: &a<count>/<max>"
+    - "&2"
+    - "&8•&fMap: &a<mapname>"
+    - "&8•&fMode: &5<mode>"
+    - "&1"
+    -  "&7@G25Kubi"
+  playing-solo:
+    -  "&4"
+    -  "&8•&f<event>"
+    -  "&8•&fKills: &a<kills>"
+    -  "&3"
+    -  "&8•&fPlayers: &a<count>/<max>"
+    -  "&2"
+    -  "&8•&fMap: &a<mapname>"
+    -  "&8•&fMode: &5<mode>"
+    -  "&1"
+    -  "&7@G25Kubi"
+  playing-team:
+    -  "&4"
+    -  "&8•&f<event>"
+    -  "&8•&fKills: &a<kills>"
+    -  "&3"
+    -  "&8•&fYour Team: &a<myTeam>"
+    -  "&8•&fPlayers: &a<count>/<max>"
+    -  "&2"
+    -  "&8•&fMap: &a<mapname>"
+    -  "&8•&fMode: &5<mode>"
+    -  "&1"
+    -  "&7@G25Kubi"
+events:
+  waiting: "Waiting..."
+  starting: "Starting in: &a<timer>s"
+  pregame: "Released in: &a<timer>s"
+  refill: 'Refill in: &a<timer>'
+  dragon: 'EnderDragon in: &a<timer>'
+  ending: "Game finished"
+  no-events: "No events"

@@ -1,0 +1,18 @@
+name: "Kits"
+identifier: kits_ranked
+rows: 1
+buttons:
+  '1':
+    material: bricks
+    displayname: "&9Default"
+    lore:
+      - "&7Wooden Pickaxe"
+      - "&7Wooden Axe"
+      - "&7Wooden Shovel"
+      - "&1"
+      - "&aClick to select!"
+    position: 0
+    actions:
+      - select_kit_ranked;0
+      - play_sound;entity_arrow_hit_player
+      - close

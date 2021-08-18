@@ -1,0 +1,11 @@
+subname: Default
+id: 0
+cost: 0
+permission: skywars.cosmetics.kits.default
+items:
+  '1':
+    material: wooden_sword
+  '2':
+    material: wooden_axe
+  '3':
+    material: wooden_pickaxe

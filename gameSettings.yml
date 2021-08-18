@@ -1,0 +1,54 @@
+#-----------------------------------------------------------------------#
+options:
+  save-inventory: true
+  titles: true
+  actionbar: true
+  sounds: true
+  waiting-lobby: true
+  distance-between-cages: 4
+#-----------------------------------------------------------------------#
+cosmetics-default:
+  cages: 0
+  kits-normal: 0
+  kits-ranked: 0
+  trails: 999
+  death-cries: 999
+  kill-effects: 999
+  balloons: 999
+  victory-dances: 999
+#-----------------------------------------------------------------------#
+votes-default:
+  chest: NORMAL
+  time: DAY
+  weather: SUNNY
+#-----------------------------------------------------------------------#
+ranked:
+  kills-required: 50
+#-----------------------------------------------------------------------#
+events-priority-and-time:
+  - refill;180
+  - ender_dragon;120
+#-----------------------------------------------------------------------#
+countdowns:
+  starting: 11
+  pregame: 6
+  ending: 5
+#-----------------------------------------------------------------------#
+economy:
+  per-kill: 3
+  per-win: 10
+  on-death: -1
+#-----------------------------------------------------------------------#
+whitelist-cmd:
+  enabled: true
+  list:
+    - leave
+#-----------------------------------------------------------------------#
+sounds:
+  join: none
+  quit: none
+  starting: block_note_block_pling
+  pregame: entity_arrow_hit_player
+  playing: entity_firework_rocket_launch
+  ending: none
+#-----------------------------------------------------------------------#

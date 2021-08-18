@@ -1,0 +1,18 @@
+name: "Death Cries"
+identifier: death_cries
+rows: 1
+buttons:
+  '1':
+    material: ender_eye
+    displayname: "&9Enderman"
+    lore:
+      - '&fDeath Cries'
+      - "&1"
+      - "&7Select the Enderman cries."
+      - "&2"
+      - "&aClick to select!"
+    position: 0
+    actions:
+      - select_death-cries;0
+      - play_sound;entity_arrow_hit_player
+      - close

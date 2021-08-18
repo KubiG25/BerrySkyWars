@@ -1,0 +1,393 @@
+#-------------------------------------------------------#
+help-commands:
+  username: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw join &a{name}
+    &7/sw random &a{type} {mode}
+    &7/sw quit
+    &7/sw stats
+    &7/sw admin &a{args}
+    &2
+  administrator: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw admin &areload
+    &7/sw admin &asetlobby
+    &7/sw admin &alobby
+    &7/sw inventory {identifier}
+    &7/sw cosmetics
+    &7/sw arena
+    &7/sw cages
+    &7/sw kits
+    &7/sw trails
+    &7/sw killsounds
+    &7/sw balloons
+    &7/sw chest
+    &2
+  arena-setup: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw arena &acreate {name}
+    &7/sw arena &amode {mode}
+    &7/sw arena &asize {teamSize}
+    &7/sw arena &aminimum {minPlayer}
+    &7/sw arena &alobby
+    &7/sw arena &aisland spawn
+    &7/sw arena &aisland balloon
+    &7/sw arena &aisland clear
+    &7/sw arena &aspectator
+    &7/sw arena &asave
+    &7/sw arena &aedit {name}
+    &7/sw arena &aenabled {name} {boolean}
+    &2
+  cages-setup: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw cages &acreate {name}
+    &7/sw cages &acost {cost}
+    &7/sw cages &apermission {permission}
+    &7/sw cages &astructure save
+    &7/sw cages &astructure load {name}
+    &7/sw cages &asave
+    &2
+  kits-setup: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw kits &acreate {name}
+    &7/sw kits &acost {cost}
+    &7/sw kits &apermission {perm}
+    &7/sw kits &ainventory save
+    &7/sw kits &ainventory load {name}
+    &7/sw kits &asave
+    &2
+  trails-setup: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw trails &acreate {name}
+    &7/sw trails &acost {cost}
+    &7/sw trails &apermission {permission}
+    &7/sw trails &atype {type}
+    &7/sw trails &asave
+    &2
+  cries-setup: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw cries &acreate {name}
+    &7/sw cries &acost {cost}
+    &7/sw cries &apermission {permission}
+    &7/sw cries &atype {type}
+    &7/sw cries &asave
+    &2
+  balloons-setup: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw balloons &acreate {name}
+    &7/sw balloons &acost {cost}
+    &7/sw balloons &apermission {permission}
+    &7/sw balloons refresh
+    &7/sw balloons &asave
+    &2
+  chests-setup: |-
+    &9SkyWars &fv1.0.0
+    &1
+    &7/sw chests &acreate {name}
+    &7/sw chests &amax {max}
+    &7/sw chests &amin {min}
+    &7/sw chests &aitems save {name}
+    &7/sw chests &aitems load {name}
+    &7/sw chests &asave
+    &2
+#-------------------------------------------------------#
+statistics: |-
+  &2
+  &9Your SkyWars stats
+  &fYour level: &a<level>
+  &fTotal wins: &a<wins>
+  &fTotal played: &a<played>
+  &fTotal kills: &a<kills>
+  &fTotal deaths: &a<deaths>
+  &1
+  &7@G25Kubi
+#-------------------------------------------------------#
+hologram: |-
+  &9Your SkyWars stats
+  &fTotal wins: &a<wins>
+  &fTotal played: &a<played>
+  &fTotal kills: &a<kills>
+  &fTotal deaths: &a<deaths>
+  &fArrow shot: &a<arrow_shoot>
+  &fArrow hit: &a<arrow_hit>
+  &fBlock placed: &a<placed_blocks>
+  &fBlock broken &a<broken_blocks>
+  &7@G25Kubi
+#-------------------------------------------------------#
+games:
+  join: "&9<player> &7has joined (&f<count>/<max>&7)!"
+  quit: '&9<player> &7has quit (&f<count>/<max>&7)!'
+  countdown:
+    starting: '&7The game starts in &9<timer> &7seconds!'
+    pregame: '&7The cage open in &9<timer> &7seconds!'
+  start: |-
+    &1
+    &9SkyWars
+    &2
+    &7Selected &f<chest> &7chest.
+    &7Selected &f<time> &7time.
+    &7Selected &f<weather> &7weather.
+    &3
+  finish: |-
+    &2
+    &b<winner> &7won the game
+    &1
+#-------------------------------------------------------#
+votes:
+  chest: "&9<player> &7vote for &f<chest>&7."
+  health: "&9<player> &7vote for &f<health>&7."
+  final: "&9<player> &7vote for &f<final>&7."
+  time: "&9<player> &7vote for &f<time>&7."
+  weather: "&9<player> &7vote for &f<weather>&7."
+  you-change-vote: "&cYou can't change the vote"
+#-------------------------------------------------------#
+deaths:
+  announcement: |-
+    &1
+    &cYou died!
+    json:["",{"text":"Want to play again?","color":"gray"},{"text":" ","color":"yellow"},{"text":"Click here!","color":"blue","clickEvent":{"action":"run_command","value":"/sw playagain"},"hoverEvent":{"action":"show_text","value":"Click to play another game of SkyWars"}}]
+    &2
+  unknown: |-
+    &9<player> &7did by unknown cause!
+    &aThere are &f<count> &aplayers left!
+  void: |-
+    &9<player> &7fell into void!
+    &aThere are &f<count> &aplayers left!
+  fall: |-
+    &9<player> &7fell from the sky!
+    &aThere are &f<count> &aplayers left!
+  burned: |-
+    &9<player> &7was burned!
+    &aThere are &f<count> &aplayers left!
+  lava: |-
+    &9<player> &7has swimn in lava!
+    &aThere are &f<count> &aplayers left!
+  explosion: |-
+    &9<player> &7flew to pieces!'
+    &aThere are &f<count> &aplayers left!
+  drowning: |-
+    &9<player> &7drowned slowly!
+    &aThere are &f<count> &aplayers left!
+  suffocation: |-
+    &9<player> &7suffocated and died slowly!
+    &aThere are &f<count> &aplayers left!
+  player: |-
+    &9<player> &7was slain by &f<killer>&7!
+    &aThere are &f<count> &aplayers left!
+#-----------------------------------------------------------------------#
+titles:
+  join:
+    title: "&fSkyWars"
+    subtitle: "&e<mode> Mode"
+  cancelled:
+    title: "&cCancelled"
+    subtitle: "&cNot enough players"
+  starting:
+    title: "&f<timer>"
+    subtitle: "&e¡Prepare to fight!"
+  pregame:
+    title: "&1"
+    subtitle: "&eCages open in: &a<timer>"
+  death:
+    title: "&cYou have died"
+    subtitle: "&7Now you are a spectator"
+  refill:
+    title: "&1"
+    subtitle: "&7Chests have been &9refilled&7!"
+  dragon:
+    title: "&cDeath match"
+    subtitle: "&cRun from the dragon or lose"
+  victory:
+    title: "&eCongratulations"
+    subtitle: "&7You won the game"
+#-------------------------------------------------------#
+actionbar:
+  death: "&7You're dead."
+  kill: "&7You killed &9<player> &7+1"
+#-------------------------------------------------------#
+enums:
+  rarity:
+    common: '&aCommon'
+    rare: '&bRare'
+    legendary: '&eLegendary'
+  modes:
+    normal: "Normal"
+    ranked: "Ranked"
+  types:
+    solo: "Solo"
+    team: "Team"
+  chests:
+    basic: "Basic"
+    normal: "Normal"
+    insane: "Insane"
+    nobody: "Nobody"
+  times:
+    day: "Day"
+    sunset: "Sunset"
+    night: "Night"
+    nobody: "Nobody"
+  weather:
+    sunny: "Sunny"
+    rain: "Rain"
+    thunder: "Thunder"
+    nobody: "Nobody"
+  states:
+    waiting: "&aWaiting"
+    starting: "&eStarting"
+    pregame: "&bPre-game"
+    playing: "&cPlaying"
+    ending: "&1Ending"
+    disabled: "&7Disable"
+#-------------------------------------------------------#
+error:
+  player-only: "&cOnly players can execute the commands."
+  player-not-found: "The player you are looking for has not been found."
+  non-existing-command: "&cThe command you're trying to execute doesn't exist."
+  insufficient-permissions: "&cInsufficient permissions!"
+  invalid-argument: "&cArguments are missing or what you entered is invalid!"
+  non-existing-lobby: "&cThe lobby has not been established."
+  already-setupMode: "&cYou are already in setup mode."
+  non-setupMode: "&cYou are not in configuration mode to do that."
+  already-created-arena: "&cArena already created."
+  non-existing-arena: "&cThere is no such arena."
+  missing-components: "&cComponents to be installed are missing."
+  non-existing-schematic: "&cSchematic not found"
+  already-created-cage: "&cCage already created."
+  non-existing-cage: "&cThere is no such cage."
+  already-created-kit: "&cKit already created."
+  non-existing-kit: "&cThere is no such kit."
+  already-created-trail: "&cTrail already created."
+  non-existing-trail: "&cThere is no such trail."
+  non-existing-kill-effect: "&cThere is no such kill effect."
+  already-created-cries: "&cDeath cries already created."
+  non-existing-cries: "&cThere is no such death cries."
+  already-created-balloon: "&cBalloon already created."
+  non-existing-balloon: "&cThere is no such balloon."
+  non-existing-dance: "&cThere is no such dance."
+  non-existing-perk: "&cThere is no such perk."
+  already-created-chest: "&cChest already created."
+  non-existing-chest: "&cThere is no such chest."
+  insufficient-money: "&cInsufficient money!"
+  not-exist-game: '&cThat game does not exist.'
+  not-found-game: '&cNo game found available.'
+  already-playing: '&cYou are already playing a game.'
+  not-in-playing: '&cYou are not in game.'
+  game-disabled: "&cThe game is disabled."
+  game-ranked: "&cYou can't get in, you don't have the required kills"
+  game-started: '&cThe game has already begun.'
+  full-game: '&cThe game is full.'
+  command-disabled: "&cThis command is disabled during the game!"
+  not-leave-arena: "&cYou cannot leave the arena."
+#-------------------------------------------------------#
+success:
+  reload: "&7The files have been reloaded."
+  lobby-placed: "&7You have placed the lobby."
+  teleport-lobby: "&7You've been taken to the lobby."
+  holo-stats-placed: "&7You have placed the hologram stats"
+  place-sign: "&7You added a sign with arena: &9<name>"
+  remove-sign: "&7Once the server is turned off, it will be deleted."
+#-------------------------------------------------------#
+arenas:
+  created: "&7The <name> map was &9created &7successfully!"
+  mode: "&7The arena &9mode &7has been changed to: <mode>."
+  team-size: "&7The team &9size &7of the arena has been changed to: <size>."
+  minimum: "&7The &9minimum &7number of players has been changed to: <minimum>."
+  waiting-lobby: "&7The waiting lobby has been &9placed&7!"
+  boundary:
+    high: "&7The &9high bound &7has been placed."
+    low: "&7The &9low bound &7has been placed."
+  islands:
+    spawn: "&7The island's &9spawn &7has been placed."
+    balloon: "&7The island's &9balloon &7has been placed."
+    remove: "&7The last island has been &9removed&7."
+  spectator: "&7The &9spectator &7spawn has been placed."
+  chest: "&9Added &7a chest to the arena."
+  save: "&7The arena has been &9saved&7."
+  enabled: "&7The arena has been &9enabled&7."
+  disabled: "&7The arena has been &9disabled&7."
+#-------------------------------------------------------#
+chests:
+  created: "&7The chest has been &9created&7."
+  min-items: "&7The &9minimum &7number of items has been placed."
+  max-items: "&7The &9maximum  &7number of items has been placed."
+  inventory:
+    save: "&7The chest items has been &9saved&7!"
+    load: "&7The chest items has been &9loaded&7!"
+  save: "&7The chest has to be &9saved&7."
+#-------------------------------------------------------#
+cages:
+  created: "&7Cage successfully &9created&7!"
+  cost: "&7The cage has a &9cost &7of <cost>."
+  permission: "&7The &9permission &7<permission> has been added to the cage."
+  structure:
+    save: "&7The cage structure has been &9saved&7!"
+    load: "&7The cage structure has been &9loaded&7!"
+  saved: "&7The cage has been &9saved&7!"
+#-------------------------------------------------------#
+kits:
+  created: "&7Kit successfully &9created&7!"
+  cost: "&7The kit has a &9cost &7of <cost>."
+  permission: "&7The permission <permission> has been added to the kit."
+  inventory:
+    save: "&7The kit items has been &9saved&7!"
+    load: "&7The kit items has been &9loaded&7!"
+  saved: "&7The kit has been &9saved&7!"
+#-------------------------------------------------------#
+trails:
+  created: "&7Trail successfully &9created&7!"
+  cost: "&7The trail has a &9cost &7of <cost>."
+  permission: "&7The &9permission &7<permission> has been added to the trail."
+  type: "&7The trail type has been &9saved&7!"
+  saved: "&7The trail has been &9saved&7!"
+#-------------------------------------------------------#
+cries:
+  created: "&7Cries successfully &9created&7!"
+  cost: "&7The cries has a &9cost &7of <cost>."
+  permission: "&7The &9permission &7<permission> &7has been added to the cries."
+  type: "&7The cries type has been &9saved&7!"
+  saved: "&7The cries has been &9saved&7!"
+#-------------------------------------------------------#
+balloons:
+  created: "&7Balloons successfully &9created&7!"
+  cost: "&7The balloon has a &9cost &7of <cost>."
+  permission: "&7The &9permission &7<permission> has been added to the balloons."
+  refresh: "&7Configuration has been &brefreshed&7."
+  saved: "&7The balloon has been &9saved&7!"
+#-----------------------------------------------------------------------#
+purchased:
+  cages: "&7You bought the cage: &9<name>"
+  kits: "&7You bought the kit: &9<name>"
+  trails: "&7You bought the trail: &9<name>"
+  cries: "&7You bought the death cries: &9<name>"
+  killeffects: "&7You bought the killeffect: &9<name>"
+  balloons: "&7You bought the balloon: &9<name>"
+  dances: "&7You bought the dance: &9<name>"
+  perk: "&7You bought the perk: &9<name>"
+#-----------------------------------------------------------------------#
+not-purchased:
+  cages: "&7You do not have purchased the cage."
+  kits: "&7You do not have purchased the kit."
+  trails: "&7You do not have purchased the trail."
+  cries: "&7You do not have purchased the death cries."
+  killeffects: "&7You do not have purchased the kill-effect."
+  balloons: "&7You do not have purchased the balloon."
+  dances: "&7You do not have purchased the dance."
+  perks: "&7You do not have purchased the perk."
+#-----------------------------------------------------------------------#
+selected:
+  cages: "&7You selected the cage: &9<name>"
+  kits: "&7You selected the kit: &9<name>"
+  trails: "&7You selected the trail: &9<name>"
+  cries: "&7You selected the death cries: &9<name>"
+  killeffects: "&7You selected the killeffect: &9<name>"
+  balloons: "&7You selected the balloon: &9<name>"
+  dances: "&7You selected the dance: &9<name>"
+#-----------------------------------------------------------------------#

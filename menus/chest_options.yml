@@ -1,0 +1,37 @@
+name: "&9Game Options | &fChest"
+identifier: votes_chest
+rows: 3
+buttons:
+  "1":
+    material: leather_helmet
+    displayname: "&aBasic Chest"
+    lore:
+      - "&8- &7Basic loot"
+      - ""
+      - "&fVotes: &a<basic>"
+    position: 11
+    actions:
+      - vote_chest;basic
+      - play_sound;block_note_block_pling
+  "2":
+    material: chainmail_helmet
+    displayname: "&eNormal Chest"
+    lore:
+      - "&8- &7Normal loot"
+      - ""
+      - "&fVotes: &a<normal>"
+    position: 13
+    actions:
+      - vote_chest;normal
+      - play_sound;block_note_block_pling
+  "3":
+    material: diamond_helmet
+    displayname: "&cInsane Chest"
+    lore:
+      - "&8- &7Insane loot"
+      - ""
+      - "&fVotes: &a<insane>"
+    position: 15
+    actions:
+      - vote_chest;insane
+      - play_sound;block_note_block_pling

@@ -1,0 +1,43 @@
+name: "Game options"
+identifier: votes
+rows: 3
+buttons:
+  '1':
+    material: chest
+    displayname: "&9Vote Chest"
+    lore:
+      - '&8- &7Basic'
+      - '&8- &7Normal'
+      - '&8- &7Insane'
+      - ''
+      - '&eClick to vote'
+    position: 11
+    actions:
+      - inventory;votes_chest
+      - play_sound;block_note_block_pling
+  '2':
+    material: clock
+    displayname: "&9Vote Time"
+    lore:
+      - '&8- &7Day'
+      - '&8- &7Sunset'
+      - '&8- &7Night'
+      - ''
+      - '&eClick to vote'
+    position: 13
+    actions:
+      - inventory;votes_time
+      - play_sound;block_note_block_pling
+  '3':
+    material: water_bucket
+    displayname: "&9Vote Weather"
+    lore:
+      - '&8- &7Sunny'
+      - '&8- &7Rain'
+      - '&8- &7Thunder'
+      - ''
+      - '&eClick to vote'
+    position: 15
+    actions:
+      - inventory;votes_weather
+      - play_sound;block_note_block_pling

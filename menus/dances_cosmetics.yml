@@ -1,0 +1,27 @@
+name: "Victory Dances"
+identifier: dances
+rows: 1
+buttons:
+  '1':
+    material: firework_rocket
+    displayname: "&bFireworks"
+    lore:
+      - '&fVictory Dances'
+      - "&1"
+      - "&7Select the Fireworks dance."
+      - "&2"
+      - "&aClick to select!"
+    position: 0
+    actions:
+      - select_dance;0
+      - play_sound;entity_arrow_hit_player
+      - close
+  '2':
+    material: barrier
+    displayname: "&eClose"
+    lore:
+      - '&cClose menu'
+    position: 8
+    actions:
+      - play_sound;entity_arrow_hit_player
+      - close

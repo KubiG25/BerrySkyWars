@@ -1,0 +1,111 @@
+name: "Cosmetics shop"
+identifier: shop
+rows: 6
+buttons:
+  '1':
+    material: white_stained_glass
+    displayname: "&9Cages"
+    lore:
+      - '&7Change the design of your'
+      - "&7spawning cell."
+      - "&b"
+      - "&aClick to view!"
+    position: 10
+    actions:
+      - inventory;cages
+      - play_sound;block_note_block_pling
+  '2':
+    material: iron_sword
+    displayname: "&9Kits"
+    lore:
+      - '&7Change the way you play by'
+      - "&7picking kits."
+      - "&b"
+      - "&aClick to view!"
+    position: 12
+    actions:
+      - inventory;kits_select
+      - play_sound;block_note_block_pling
+  '3':
+    material: arrow
+    displayname: "&9Projectile Trails"
+    lore:
+      - '&7Change your projectile'
+      - "&7particle trail effect."
+      - "&b"
+      - "&aClick to view!"
+    position: 14
+    actions:
+      - inventory;trails
+      - play_sound;block_note_block_pling
+  '4':
+    material: bone
+    displayname: "&9Kill Effect"
+    lore:
+      - '&7Pick an effect to trigger'
+      - "&7whenever you eliminate"
+      - "&7another player!"
+      - "&b"
+      - "&aClick to view!"
+    position: 16
+    actions:
+      - inventory;kill_effects
+      - play_sound;block_note_block_pling
+  '5':
+    material: ghast_tear
+    displayname: "&9Death cries"
+    lore:
+      - '&7Let others know just how salty'
+      - '&7your tears are every time you'
+      - '&7die with these death cries!'
+      - "&b"
+      - "&aClick to view!"
+    position: 28
+    actions:
+      - inventory;death_cries
+      - play_sound;block_note_block_pling
+  '6':
+    material: string
+    displayname: "&9Balloons"
+    lore:
+      - '&7Attach a balloon to your'
+      - "&7spawn island!"
+      - "&b"
+      - "&aClick to view!"
+    position: 30
+    actions:
+      - inventory;balloons
+      - play_sound;block_note_block_pling
+  '7':
+    material: player_head
+    texture: eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzM0ODA1OTIyNjZkZDdmNTM2ODFlZmVlZTMxODhhZjUzMWVlYTUzZGE0YWY1ODNhNjc2MTdkZWViNGY0NzMifX19
+    displayname: "&9Victory Dances"
+    lore:
+      - '&7Celebrate by gloating and'
+      - "&7showing off to other"
+      - "&7players whenever you win!"
+      - "&b"
+      - "&aClick to view!"
+    position: 32
+    actions:
+      - inventory;dances
+      - play_sound;block_note_block_pling
+  '8':
+    material: ender_eye
+    displayname: "&9Perks"
+    lore:
+      - '&7Change the way you play by'
+      - "&7picking perks."
+      - "&b"
+      - "&aClick to view!"
+    position: 34
+    actions:
+      - message;comming soon
+      - play_sound;block_note_block_pling
+  '9':
+    material: book
+    displayname: "&cClose"
+    position: 49
+    actions:
+      - close
+      - play_sound;block_note_block_pling
