@@ -165,6 +165,9 @@ titles:
   dragon:
     title: "&cDeath match"
     subtitle: "&cRun from the dragon or lose"
+  finish:
+    title: "&cGame Finish"
+    subtitle: "&cEveryone loses"
   victory:
     title: "&eCongratulations"
     subtitle: "&7You won the game"
@@ -226,6 +229,13 @@ enums:
   types:
     solo: "Solo"
     team: "Team"
+  states:
+    waiting: "&aWaiting"
+    starting: "&eStarting"
+    pregame: "&bPre-game"
+    playing: "&cPlaying"
+    ending: "&1Ending"
+    disabled: "&7Disable"
   chests:
     basic: "Basic"
     normal: "Normal"
@@ -246,13 +256,6 @@ enums:
     rain: "Rain"
     thunder: "Thunder"
     nobody: "Nobody"
-  states:
-    waiting: "&aWaiting"
-    starting: "&eStarting"
-    pregame: "&bPre-game"
-    playing: "&cPlaying"
-    ending: "&1Ending"
-    disabled: "&7Disable"
 #-------------------------------------------------------#
 error:
   player-only: "&cOnly players can execute the commands."
@@ -266,7 +269,6 @@ error:
   already-created-arena: "&cArena already created."
   non-existing-arena: "&cThere is no such arena."
   missing-components: "&cComponents to be installed are missing."
-  non-existing-schematic: "&cSchematic not found"
   already-created-cage: "&cCage already created."
   non-existing-cage: "&cThere is no such cage."
   already-created-kit: "&cKit already created."
@@ -374,7 +376,7 @@ purchased:
   kits: "&7You bought the kit: &9<name>"
   trails: "&7You bought the trail: &9<name>"
   cries: "&7You bought the death cries: &9<name>"
-  killeffects: "&7You bought the killeffect: &9<name>"
+  killeffects: "&7You bought the kill-effect: &9<name>"
   balloons: "&7You bought the balloon: &9<name>"
   dances: "&7You bought the dance: &9<name>"
   perk: "&7You bought the perk: &9<name>"
@@ -394,7 +396,7 @@ selected:
   kits: "&7You selected the kit: &9<name>"
   trails: "&7You selected the trail: &9<name>"
   cries: "&7You selected the death cries: &9<name>"
-  killeffects: "&7You selected the killeffect: &9<name>"
+  killeffects: "&7You selected the kill-effect: &9<name>"
   balloons: "&7You selected the balloon: &9<name>"
   dances: "&7You selected the dance: &9<name>"
 #-----------------------------------------------------------------------#

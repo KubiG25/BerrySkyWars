@@ -11,7 +11,7 @@ main-board:
     - "&8• &fDeaths: &a<deaths>"
     - "&3"
     - "&8• &fCoins: &a<coins>"
-    - "&8• &fSouls: &b<souls>&7/&b100"
+    - "&8• &fDusts: &b<dust>"
     - "&4"
     - "&7@G25Kubi"
 game-board:
@@ -52,9 +52,10 @@ game-board:
     - "&7@G25Kubi"
 events:
   waiting: "Waiting..."
-  starting: "Starting in: &a<timer>s"
-  pregame: "Released in: &a<timer>s"
-  refill: 'Refill in: &a<timer>'
-  dragon: 'EnderDragon in: &a<timer>'
-  ending: "Game finished"
+  starting: "Starting in: &a<timer>"
+  pregame: "Released in: &a<timer>"
+  refill: "Refill in: &a<timer>"
+  dragon: "EnderDragon in: &a<timer>"
+  finish: "Game End in: &a<timer>"
+  ending: "Game ended!"
   no-events: "No events"

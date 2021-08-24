@@ -37,6 +37,7 @@ game-options:
     - refill;180
     - refill;120
     - ender_dragon;120
+    - finish;90
 #-----------------------------------------------------------------------#
 sounds:
   join: none
