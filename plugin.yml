@@ -1,0 +1,15 @@
+name: SkyWars
+main: com.twitter.g25kubi.skywars.SkyWars
+version: 1.5.0
+depend:
+  - Vault
+softdepend:
+  - PlaceholderAPI
+  - SlimeWorldManager
+  - Parties
+commands:
+  skywars:
+    description: SkyWars by KubiG25 commands
+    aliases:
+      - bsw
+      - sw
