@@ -36,6 +36,7 @@ help-commands:
     &7/sw arena &aisland balloon
     &7/sw arena &aisland clear
     &7/sw arena &aspectator
+    &7/sw arena &astatus {name}
     &7/sw arena &asave
     &7/sw arena &aenabled {name} {boolean}
     &2
